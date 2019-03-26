@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Aleksandar Basara",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^4.0.4",
+    "parcel-bundler": "^1.12.3",
+    "postcss": "^7.0.14",
+    "postcss-import": "^11.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-preset-env": "^5.3.0",
+    "postcss-purgecss": "^1.0.0",
+    "sass": "^1.17.3",
+    "tailwindcss": "^1.0.0-beta.3"
+  },
+  "scripts": {
+    "serve": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": ["TailwindCSS", "Parcel", "beta", "purgeCSS"]
+}
