@@ -25,5 +25,8 @@
     "Parcel",
     "beta",
     "purgeCSS"
-  ]
+  ],
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0"
+  }
 }
